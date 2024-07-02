@@ -1,0 +1,75 @@
+/*Estilo generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #FAFAF9;
+}
+/*Estilo para el card*/
+.card{
+    height: 420px;
+    width: 395px;
+    margin-top: 100px;
+    font-family: Sora;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 20px;
+}/*Estilo para la imagen */
+.img{
+    height: 150px;
+    width: 375px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img img{
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+}
+/*Estilos para los textos y la linea */
+.text1{
+    background-color: #E6D6FC;
+    width: 75px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 50px;
+    font-size: 10px ;
+    color: #883AE1;
+    font-weight: bold;
+}
+.text2{
+    margin: 20px;
+    
+}
+.text2 .title{
+    font-size: 18px;
+    color: #20293A;
+    font-weight: bold;
+}
+.text2 .paragraph{
+    font-size: 14px;
+    color: #6C727F;
+    margin-top: -10px;
+    line-height: 24px; 
+    width: 320px;
+}
+.text3 {
+    margin: 20px;
+}
+.text3 .tag{
+    font-size: 10px;
+    color: #6C727F;
+    margin-top: 20px;
+}
+.linea {
+    width: 24.7rem; 
+    height: 1px; 
+    background-color: #E5EAF0; 
+    margin-left: -20px; 
+    margin-top: 30px ;
+}
